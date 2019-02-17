@@ -1,3 +1,10 @@
 import './admin-user';
 import './profile-edit-profile';
 import './profile-edit-password';
+import './category';
+import './user';
+import './chapter';
+import './giving-channel';
+import './giving-record';
+import './account-type';
+import './account';
