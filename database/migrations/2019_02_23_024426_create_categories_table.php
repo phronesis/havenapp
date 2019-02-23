@@ -18,7 +18,7 @@ class CreateCategoriesTable extends Migration {
 			$table->string('category', 100);
 			$table->boolean('active')->default(1);
 			$table->timestamps();
-			$table->integer('account_types_id')->unsigned()->index('fk_categories_account_types1_idx');
+			$table->integer('giving_type_id')->unsigned()->index('fk_categories_giving_types1_idx');
 		});
 	}
 

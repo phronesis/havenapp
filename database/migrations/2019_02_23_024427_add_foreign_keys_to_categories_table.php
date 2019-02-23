@@ -14,7 +14,7 @@ class AddForeignKeysToCategoriesTable extends Migration {
 	{
 		Schema::table('categories', function(Blueprint $table)
 		{
-			$table->foreign('account_types_id', 'fk_categories_account_types1')->references('id')->on('account_types')->onUpdate('NO ACTION')->onDelete('NO ACTION');
+			$table->foreign('giving_type_id', 'fk_categories_giving_types1')->references('id')->on('giving_types')->onUpdate('NO ACTION')->onDelete('NO ACTION');
 		});
 	}
 
@@ -28,7 +28,7 @@ class AddForeignKeysToCategoriesTable extends Migration {
 	{
 		Schema::table('categories', function(Blueprint $table)
 		{
-			$table->dropForeign('fk_categories_account_types1');
+			$table->dropForeign('fk_categories_giving_types1');
 		});
 	}
 
