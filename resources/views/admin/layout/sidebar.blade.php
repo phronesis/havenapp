@@ -2,8 +2,9 @@
     <nav class="sidebar-nav">
         <ul class="nav">
             <li class="nav-title">{{ trans('brackets/admin-ui::admin.sidebar.content') }}</li>
+            <li class="nav-item"><a class="nav-link" href="{{ url('admin/') }}"><i class="nav-icon icon-home"></i> {{ trans('admin.dashboard.title') }}</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ url('admin/categories') }}"><i class="nav-icon icon-globe"></i> {{ trans('admin.category.title') }}</a></li>
-           <li class="nav-item"><a class="nav-link" href="{{ url('admin/users') }}"><i class="nav-icon icon-umbrella"></i> {{ trans('admin.user.title') }}</a></li>
+           <li class="nav-item"><a class="nav-link" href="{{ url('admin/users') }}"><i class="nav-icon icon-people"></i> {{ trans('admin.user.title') }}</a></li>
            <li class="nav-item"><a class="nav-link" href="{{ url('admin/chapters') }}"><i class="nav-icon icon-diamond"></i> {{ trans('admin.chapter.title') }}</a></li>
            <li class="nav-item"><a class="nav-link" href="{{ url('admin/giving-channels') }}"><i class="nav-icon icon-umbrella"></i> {{ trans('admin.giving-channel.title') }}</a></li>
            <li class="nav-item"><a class="nav-link" href="{{ url('admin/giving-records') }}"><i class="nav-icon icon-compass"></i> {{ trans('admin.giving-record.title') }}</a></li>

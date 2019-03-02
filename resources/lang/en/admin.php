@@ -157,6 +157,9 @@ return [
             
         ],
     ],
+    'dashboard'=>[
+        'title' => 'Dashboard'
+    ]
 
     // Do not delete me :) I'm used for auto-generation
 ];
